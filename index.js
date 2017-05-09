@@ -94,19 +94,3 @@ function resetPrompt(){
 process.on('SIGINT', resetPrompt);
 
 module.exports = BrailleLoader;
-
-var l = new BrailleLoader({
-	spinner: 'moon',
-	color: 'green',
-	text: 'Loading'
-})
-
-l.start();
-
-setTimeout(function(){
-	l.setText("watching moons");
-	setTimeout(function(){
-		console.log('stopping')
-		l.stop()
-	},5000)
-},5000)
