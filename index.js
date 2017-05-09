@@ -45,7 +45,6 @@ BrailleLoader.prototype.stop = function(){
 
 BrailleLoader.prototype.destroy = function(){
 	clearInterval(this.options.spinnerId);
-	resetPrompt();
 }
 
 BrailleLoader.prototype.getColor = function(){
