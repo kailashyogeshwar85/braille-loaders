@@ -61,9 +61,7 @@ options: `black` `red` 	`green` `yellow` `cyan` `blue` `purple`
 ```
 
 ### Output
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-![Imgur](http://i.imgur.com/qKDGIwP.gifv "Title")
+![Imgur](https://github.com/kailashyogeshwar85/braille-loaders/blob/master/images/demo.gif "Demo")
 
 ### Related
 cli-spinners
