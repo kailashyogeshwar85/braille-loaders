@@ -14,7 +14,21 @@
     "lazyloaders",
     "loading"
   ],
-  "engines"
+  "maintainers":[
+    {
+      "name": "Kailash K Yogeshwar",
+      "email": "kailashyogeshwar85@gmail.com"
+    }
+  ],
+  "issues": "https://github.com/kailashyogeshwar85/braille-loaders/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kailashyogeshwar85/braille-loaders.git"
+  },
+  "engines": {
+     "node":">=4.0.0",
+     "npm" : ">=2.14.12"
+  },
   "author": "Kailash K Yogeshwar",
   "license": "ISC",
   "dependencies": {
