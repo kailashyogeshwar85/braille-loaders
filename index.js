@@ -71,7 +71,8 @@ BrailleLoader.prototype.paintFrames = function(){
 BrailleLoader.prototype.getSpinner = function(spinner){
 	if (!spinners[spinner]){
 		console.warn('Invalid spinner type refer cli-spinners for all types');
-		process.exit(0);
+		resetPrompt();
+		return;
 	}
 	return spinners[spinner];
 }

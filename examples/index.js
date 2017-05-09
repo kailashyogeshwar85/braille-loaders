@@ -5,7 +5,7 @@ var spinner  = null;
 var timeout  = 2000;
 var index    =  0;
 var colors   = ['red','green','blue','purple','yellow','cyan','white']; 
-var spinners = Object.keys(BrailleLoader.spinners);
+var spinners = Object.keys(BrailleLoader.spinners).slice(60);
 var total    = spinners.length;
 
 function execute(_timeout){
