@@ -60,6 +60,11 @@ options: `black` `red` 	`green` `yellow` `cyan` `blue` `purple`
 	loader.start();
 ```
 
+### Output
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![Imgur](http://i.imgur.com/qKDGIwP.gifv "Title")
+
 ### Related
 cli-spinners
 

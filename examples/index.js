@@ -5,8 +5,8 @@ var spinner  = null;
 var timeout  = 2000;
 var index    =  0;
 var colors   = ['red','green','blue','purple','yellow','cyan','white']; 
-var spinners = Object.keys(BrailleLoader.spinners).slice(60);
-var total    = spinners.length;
+var spinners = Object.keys(BrailleLoader.spinners);
+var total    = 64;
 
 function execute(_timeout){
 	_timeout = _timeout || timeout;
@@ -18,7 +18,7 @@ function execute(_timeout){
 		spinner = new BrailleLoader({
 			spinner: spinners[index],
 			color: colors[ Math.floor(Math.random() * colors.length)],
-			text: 'Loader ' + (index + 1) + ' of ' + total 
+			text: ' Loading' 
 		});
 		spinner.start();
 
