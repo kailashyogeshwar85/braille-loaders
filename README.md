@@ -3,7 +3,7 @@
 
 ## Install
 ``` bash
-	npm install braille-loader --save
+	npm install braille-loaders --save
 ```
 ## Usage
 
