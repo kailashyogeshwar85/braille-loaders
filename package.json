@@ -1,7 +1,7 @@
 {
   "name": "braille-loaders",
   "version": "1.0.6",
-  "description": "Animated fully customizable loading icons from a collection of 64 spinner types.",
+  "description": "Animated  fully customizable loading icons from a collection of 64 spinner types.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
