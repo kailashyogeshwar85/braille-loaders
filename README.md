@@ -61,7 +61,7 @@ options: `black` `red` 	`green` `yellow` `cyan` `blue` `purple`
 ```
 
 ### Output
-![Imgur](https://github.com/kailashyogeshwar85/braille-loaders/blob/master/images/demo.gif "Demo")
+![Screenshot](https://raw.githubusercontent.com/kailashyogeshwar85/braille-loaders/master/images/demo.gif "Demo")
 
 ### Related
 cli-spinners
