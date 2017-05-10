@@ -1,6 +1,6 @@
 {
   "name": "braille-loaders",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Animated fully customizable loading icons from a collection of 64 spinner types.",
   "main": "index.js",
   "scripts": {
