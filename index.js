@@ -40,11 +40,13 @@ BrailleLoader.prototype.start = function(){
 }
 
 BrailleLoader.prototype.stop = function(){
-	this.destroy();
+		this.destroy();
 }
 
 BrailleLoader.prototype.destroy = function(){
 	clearInterval(this.options.spinnerId);
+	process.stdout.write('\x1B[?25h')//show's the cursor
+	process.stdout.write('\x1B[0m') // reset the prompt
 }
 
 BrailleLoader.prototype.getColor = function(){
@@ -64,7 +66,6 @@ BrailleLoader.prototype.paintFrames = function(){
 	}
 	readline.moveCursor(process.stdout, -this.options.frames[this.options.currentFrame].length , 0);
 	var str = `${this.getColor()}${this.options.frames[this.options.currentFrame]} ${this.options.text}`
-
 	process.stdout.write('\r' + str);
 }
 
@@ -87,7 +88,7 @@ BrailleLoader.prototype.setText = function(str){
 
 function resetPrompt(){
 	process.stdout.write('\x1B[?25h')//show's the cursor
-	process.stdout.write('\x1B[0m') 
+	process.stdout.write('\x1B[0m') // reset the prompt
 	process.exit(0);	
 }
 
