@@ -51,7 +51,7 @@ options: `black` `red` 	`green` `yellow` `cyan` `blue` `purple`
 
 ``` Javascript
 	var brailleloader = require('braille-loader');
-	var loader = new braillloader({
+	var loader = new brailleloader({
 		spinner: 'clock',
 		color: 'green',
 		text: 'loading'
